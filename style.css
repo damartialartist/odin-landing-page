@@ -1,0 +1,152 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero,
+.footer,
+.headers {
+    background-color: #1f2937;
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: e5e7eb;
+    font-weight: bold;
+}
+
+.headers ul {
+    display: flex;
+    gap: 8px;
+}
+.headers ul li {
+    color: e5e7eb;
+    list-style: none;
+    align-self: center;
+    font-weight: lighter;
+}
+
+.hero {
+    color: #f9faf8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.hero .hero-text > * {
+    margin: 5px;
+}
+.hero .hero-text {
+    width: 500px;
+    margin-right: -100px;
+}
+
+.hero-text p {
+    color: e5e7eb;
+}
+
+.hero button {
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    border-color: e5e7eb;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: e5e7eb;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.information h1 {
+    justify-self: center;
+    align-self: center;
+    color: 1f2937;
+    font-weight: bolder;
+}
+.information .info-pic {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.info-pic div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-pic div p {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 100px;
+    background-color: e5e7eb;
+}
+
+.quote p {
+    text-align: right;
+}
+
+.quote > * {
+    align-self: center;
+    width: 50%;
+}
+
+.cta {
+    display: flex;
+    width: 50%;
+    margin: 75px;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: #3882f6;
+}
+
+.cta div {
+    color: #e5e7eb;
+    padding: 50px;
+}
+
+.cta button {
+    width: 100px;
+    height: 30px;
+    margin: 50px;
+    align-self: center;
+    justify-self: center;
+    background-color: #3882f6;
+    color: E5e7eb;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: e5e7eb;
+}
